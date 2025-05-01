@@ -1,0 +1,16 @@
+h1{
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  #container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 500px;
+    max-height: 800px;
+    padding: 20px;
+    border: 1px solid black;
+    gap: 10px;
+  }
+  
