@@ -19,7 +19,13 @@
 
  - Build an app that is functionally similar to https://roman-numeral-converter.freecodecamp.rocks.
 
-### User Stories:
+  ## Languages : 
+
+- [![Made-with-HTML](https://img.shields.io/badge/Made%20with-HTML-red)](https://developer.mozilla.org/fr/docs/Web/HTML)
+- [![Made-with-CSS](https://img.shields.io/badge/Made%20with-CSS-blue)](https://developer.mozilla.org/fr/docs/Web/CSS)
+- [![Made-with-Javascript](https://img.shields.io/badge/Made%20with-Javascript-green)](https://developer.mozilla.org/fr/docs/Web/JavaScript)  
+
+## User Stories:
 
 1) You should have an input element with an id of "number".
 2) You should have a button element with an id of "convert-btn".
