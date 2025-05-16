@@ -17,6 +17,7 @@ i;
 
 
 btnConvert.addEventListener("click", ()=>{  
+   output.style.display = 'block';  // display output
   if(inputNumber.value === ""){
     output.textContent = "Please enter a valid number"
   } else if(inputNumber.value < 0){

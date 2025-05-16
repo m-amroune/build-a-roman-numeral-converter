@@ -1,16 +1,124 @@
-h1{
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e4d7a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    color: #fff;
+}
+
+
+h1 {
     text-transform: uppercase;
     text-align: center;
-  }
-  
-  #container{
+    font-size: 2.5rem;
+    color: #FFF;
+    margin-bottom: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+h1:hover {
+    color: #81c784;
+    cursor: pointer;
+}
+
+
+#container {
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
-    max-width: 500px;
-    max-height: 800px;
+    align-items: center;
+    background-color: #1e4d7a;
     padding: 20px;
-    border: 1px solid black;
-    gap: 10px;
-  }
+     border: 4px solid #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+#instruction{
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+
+#number {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    transition: border-color 0.3s ease;
+}
+
+#number:focus {
+    border-color: #4caf50;
+    outline: none;
+}
+
+
+#convert-btn {
+    padding: 10px 20px;
+    background-color: orange;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1rem;
+}
+
+#convert-btn:hover {
+    background-color: #81c784;
+}
+
+
+#output {
+  display: none;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    color: #d32f2f;
+}
+
+
+#error {
+    color: #d32f2f;
+}
+
+
+#success {
+    color: #388e3c;
+}
+
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    #container {
+        padding: 15px;
+        width: 90%;
+    }
+
+    #output {
+        font-size: 1rem;
+    }
+}
   
